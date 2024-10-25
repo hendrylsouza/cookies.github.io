@@ -1,14 +1,49 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
         <h1>COOKIES FODAS E COLORIDOS</h1>
+                <img src="img/image.jpg" alt="COOKIE FODA">
+        <p>COOKIES FODAS</p>
+        <p>COOKIES SÃO FODAS</p>
+            <ul>
+                <li><a href="index.html">SOBRE</a></li>
+                <li><a href="about.html">PREÇOS</a></li>
+                <li><a href="contact.html">INSTA</a></li>
+            </ul>
+</body>
+</html>
+
+
+<head>
+
+    <title>Sobre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SOBRE</h1>
+            <section class="main-content">
+        <p>Esta página fala um pouco mais sobre o propósito do nosso site e nossa equipe.</p>
+    </section>
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="about.html">PREÇOS</a></li>
+                <li><a href="contact.html">INSTA</a></li>
+            </ul>
+    </header>
+    
+</body>
+</html>
+
+<head>
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -19,12 +54,11 @@
     </header>
     
     <section class="main-content">
-        <img src="img/image.jpg" alt="Imagem descritiva">
-        <p>MACACOS FODAS<gbynhjmk,/p>
+        <p>Entre em contato conosco através do formulário ou pelo e-mail: contato@meusite.com</p>
     </section>
     
     <footer>
-        <p>MACACOS SÃO FODAS</p>
+        <p>© 2024 Meu Site. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
